@@ -1,0 +1,752 @@
+[
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "name": "Morning Yoga Session",
+    "description": "Start your day with a peaceful yoga session overlooking the ocean",
+    "hotelName": "Oceanview Resort & Spa",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2500,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Beachfront Pavilion",
+    "category": "Wellness",
+    "duration": "1 hour"
+  },
+  {
+    "id": "38c9f63a-0d3b-4793-b49d-cf7c7e2c8c15",
+    "name": "Wine Tasting Tour",
+    "description": "Explore local vineyards and sample premium wines",
+    "hotelName": "Vineyard Valley Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Local Vineyards",
+    "category": "Food & Drink",
+    "duration": "3 hours"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4a5b-9c3d-2e1f0a9b8c7d",
+    "name": "Scuba Diving Adventure",
+    "description": "Discover the vibrant marine life in crystal clear waters",
+    "hotelName": "Coral Reef Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 7500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Coral Bay",
+    "category": "Adventure",
+    "duration": "4 hours"
+  },
+  {
+    "id": "b5c6d7e8-f9a0-4b6c-0d1e-2f3a4b5c6d7e",
+    "name": "Cooking Class",
+    "description": "Learn to prepare authentic local cuisine with expert chefs",
+    "hotelName": "Culinary Palace Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Hotel Kitchen",
+    "category": "Food & Drink",
+    "duration": "2 hours"
+  },
+  {
+    "id": "c7d8e9f0-a1b2-4c7d-8e9f-0a1b2c3d4e5c",
+    "name": "Hiking Expedition",
+    "description": "Explore scenic mountain trails with experienced guides",
+    "hotelName": "Mountain Peak Lodge",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "Mountain Trails",
+    "category": "Adventure",
+    "duration": "5 hours"
+  },
+  {
+    "id": "d9e0f1a2-b3c4-4d9e-0f1a-2b3c4d5e6f7l",
+    "name": "Spa Retreat",
+    "description": "Indulge in a full day of relaxation and rejuvenation",
+    "hotelName": "Serenity Spa Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 12000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Spa Center",
+    "category": "Wellness",
+    "duration": "6 hours"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-4e1f-2a3b-4c5d6e7f8a8b",
+    "name": "City Tour",
+    "description": "Discover the rich history and culture of the city",
+    "hotelName": "Grand Metropolitan Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.5,
+    "location": "City Center",
+    "category": "Culture",
+    "duration": "3 hours"
+  },
+  {
+    "id": "f3a4b5c6-d7e8-4f3a-4b5c-6d7e8f9a0b1c",
+    "name": "Golf Tournament",
+    "description": "Participate in a friendly golf competition",
+    "hotelName": "Green Valley Golf Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 6000,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Golf Course",
+    "category": "Sports",
+    "duration": "4 hours"
+  },
+  {
+    "id": "a5b6c7d8-e9f0-4a5b-6c7d-8e9f0a1b2c3d",
+    "name": "Beach Volleyball",
+    "description": "Join a fun beach volleyball game with other guests",
+    "hotelName": "Sunset Beach Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 1500,
+      "currency": "USD"
+    },
+    "rating": 4.4,
+    "location": "Beach Court",
+    "category": "Sports",
+    "duration": "2 hours"
+  },
+  {
+    "id": "b7c8d9e0-f1a2-4b7c-8d9e-0f1a2b3c4d5e",
+    "name": "Photography Workshop",
+    "description": "Learn professional photography techniques",
+    "hotelName": "Artistic View Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Hotel Studio",
+    "category": "Arts",
+    "duration": "3 hours"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-4c9d-0e1f-2a3b4c5d6e7f",
+    "name": "Sunset Cruise",
+    "description": "Enjoy a romantic cruise during golden hour",
+    "hotelName": "Harbor View Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Harbor",
+    "category": "Leisure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "d1e2f3a4-b5c6-4d1e-2f3a-4b5c6d7e8f9a",
+    "name": "Horseback Riding",
+    "description": "Explore scenic trails on horseback",
+    "hotelName": "Ranch Retreat Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "Ranch Trails",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "e3f4a5b6-c7d8-4e3f-4a5b-6c7d8e9f0a1b",
+    "name": "Meditation Session",
+    "description": "Find inner peace through guided meditation",
+    "hotelName": "Zen Garden Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2000,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Zen Garden",
+    "category": "Wellness",
+    "duration": "1 hour"
+  },
+  {
+    "id": "f5a6b7c8-d9e0-4f5a-6b7c-8d9e0f1a2b3c",
+    "name": "Local Market Tour",
+    "description": "Experience authentic local markets and street food",
+    "hotelName": "Market Square Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.5,
+    "location": "Local Markets",
+    "category": "Culture",
+    "duration": "3 hours"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-4a7b-8c9d-0e1f2a3b4c5d",
+    "name": "Kayaking Adventure",
+    "description": "Paddle through scenic waterways",
+    "hotelName": "Riverfront Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "River",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "b9c0d1e2-f3a4-4b9c-0d1e-2f3a4b5c6d7e",
+    "name": "Wine and Paint Night",
+    "description": "Create art while enjoying fine wine",
+    "hotelName": "Artisan Boutique Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Art Studio",
+    "category": "Arts",
+    "duration": "2 hours"
+  },
+  {
+    "id": "c1d2e3f4-a5b6-4c1d-2e3f-4a5b6c7d8e9f",
+    "name": "Bike Tour",
+    "description": "Explore the city on two wheels",
+    "hotelName": "Urban Cycle Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2500,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "City Streets",
+    "category": "Adventure",
+    "duration": "3 hours"
+  },
+  {
+    "id": "d3e4f5a6-b7c8-4d3e-4f5a-6b7c8d9e0f1a",
+    "name": "Sushi Making Class",
+    "description": "Learn the art of sushi preparation",
+    "hotelName": "Sakura Garden Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Japanese Kitchen",
+    "category": "Food & Drink",
+    "duration": "2 hours"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4e5f-6a7b-8c9d0e1f2a3b",
+    "name": "Stargazing Night",
+    "description": "Observe the night sky with astronomy experts",
+    "hotelName": "Starlight Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Observatory",
+    "category": "Science",
+    "duration": "2 hours"
+  },
+  {
+    "id": "f7a8b9c0-d1e2-4f7a-8b9c-0d1e2f3a4b5c",
+    "name": "Rock Climbing",
+    "description": "Challenge yourself with indoor rock climbing",
+    "hotelName": "Adventure Peak Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Climbing Wall",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-4a9b-0c1d-2e3f4a5b6c7d",
+    "name": "Pottery Workshop",
+    "description": "Create your own ceramic masterpiece",
+    "hotelName": "Clay Art Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Pottery Studio",
+    "category": "Arts",
+    "duration": "3 hours"
+  },
+  {
+    "id": "b1c2d3e4-f5a6-4b1c-2d3e-4f5a6b7c8d9e",
+    "name": "Fishing Trip",
+    "description": "Experience deep sea fishing",
+    "hotelName": "Fisherman's Wharf Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 6500,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "Deep Sea",
+    "category": "Adventure",
+    "duration": "4 hours"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c3d-4e5f-6a7b8c9d0e1f",
+    "name": "Dance Class",
+    "description": "Learn traditional and modern dance styles",
+    "hotelName": "Rhythm Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Dance Studio",
+    "category": "Arts",
+    "duration": "1.5 hours"
+  },
+  {
+    "id": "d5e6f7a8-b9c0-4d5e-6f7a-8b9c0d1e2f3a",
+    "name": "Wildlife Safari",
+    "description": "Observe exotic animals in their natural habitat",
+    "hotelName": "Safari Lodge",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 8500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Wildlife Reserve",
+    "category": "Adventure",
+    "duration": "6 hours"
+  },
+  {
+    "id": "e7f8a9b0-c1d2-4e7f-8a9b-0c1d2e3f4a5b",
+    "name": "Cocktail Mixing Class",
+    "description": "Learn to create signature cocktails",
+    "hotelName": "Mixology Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Bar",
+    "category": "Food & Drink",
+    "duration": "2 hours"
+  },
+  {
+    "id": "f9a0b1c2-d3e4-4f9a-0b1c-2d3e4f5a6b7c",
+    "name": "Hot Air Balloon Ride",
+    "description": "Soar above the landscape in a hot air balloon",
+    "hotelName": "Sky View Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 12000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Launch Site",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4a1b-2c3d-4e5f6a7b8c9d",
+    "name": "Chess Tournament",
+    "description": "Test your strategic skills in a friendly competition",
+    "hotelName": "Grand Master Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2000,
+      "currency": "USD"
+    },
+    "rating": 4.5,
+    "location": "Game Room",
+    "category": "Games",
+    "duration": "3 hours"
+  },
+  {
+    "id": "b3c4d5e6-f7a8-4b3c-4d5e-6f7a8b9c0d1e",
+    "name": "Beekeeping Workshop",
+    "description": "Learn about sustainable beekeeping",
+    "hotelName": "Honeycomb Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Apiary",
+    "category": "Education",
+    "duration": "2 hours"
+  },
+  {
+    "id": "c5d6e7f8-a9b0-4c5d-6e7f-8a9b0c1d2e3f",
+    "name": "Surfing Lessons",
+    "description": "Ride the waves with professional instructors",
+    "hotelName": "Wave Rider Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Beach",
+    "category": "Sports",
+    "duration": "2 hours"
+  },
+  {
+    "id": "d7e8f9a0-b1c2-4d7e-8f9a-0b1c2d3e4f5a",
+    "name": "Chocolate Making Class",
+    "description": "Create your own artisanal chocolates",
+    "hotelName": "Sweet Dreams Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Chocolate Factory",
+    "category": "Food & Drink",
+    "duration": "2 hours"
+  },
+  {
+    "id": "e9f0a1b2-c3d4-4e9f-0a1b-2c3d4e5f6a7b",
+    "name": "Archery Session",
+    "description": "Learn the ancient art of archery",
+    "hotelName": "Arrow Valley Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "Archery Range",
+    "category": "Sports",
+    "duration": "1.5 hours"
+  },
+  {
+    "id": "f1a2b3c4-d5e6-4f1a-2b3c-4d5e6f7a8b9c",
+    "name": "Tea Ceremony",
+    "description": "Experience traditional tea preparation",
+    "hotelName": "Tea Garden Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2500,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Tea House",
+    "category": "Culture",
+    "duration": "1 hour"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-4a3b-4c5d-6e7f8a9b0c1d",
+    "name": "Zip Lining",
+    "description": "Soar through the treetops on a zip line",
+    "hotelName": "Canopy Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Forest Canopy",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "b5c6d7e8-f9a0-4b5c-6d7e-8f9a0b1c2d3e",
+    "name": "Jewelry Making",
+    "description": "Create your own unique jewelry pieces",
+    "hotelName": "Gemstone Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Jewelry Studio",
+    "category": "Arts",
+    "duration": "3 hours"
+  },
+  {
+    "id": "c7d8e9f0-a1b2-4c7d-8e9f-0a1b2c3d4e5f",
+    "name": "Stand-up Paddleboarding",
+    "description": "Glide across calm waters on a paddleboard",
+    "hotelName": "Paddle Paradise Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.6,
+    "location": "Lagoon",
+    "category": "Sports",
+    "duration": "2 hours"
+  },
+  {
+    "id": "d9e0f1a2-b3c4-4d9e-0f1a-2b3c4d5e6f7a",
+    "name": "Cheese Tasting",
+    "description": "Sample artisanal cheeses from local producers",
+    "hotelName": "Cheese Valley Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Tasting Room",
+    "category": "Food & Drink",
+    "duration": "1.5 hours"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-4e1f-2a3b-4c5d6e7f8a9b",
+    "name": "Bird Watching",
+    "description": "Observe exotic bird species in their natural habitat",
+    "hotelName": "Feather Nest Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Bird Sanctuary",
+    "category": "Nature",
+    "duration": "3 hours"
+  },
+  {
+    "id": "f3a4b5c6-d7e8-4f3a-4b5c-6d7e8f9b0b1c",
+    "name": "Glass Blowing Workshop",
+    "description": "Create beautiful glass art pieces",
+    "hotelName": "Crystal Art Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 6000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Glass Studio",
+    "category": "Arts",
+    "duration": "3 hours"
+  },
+  {
+    "id": "a5b6c7d8-e9f0-4a5b-6c7d-8e9f0a1b3c3d",
+    "name": "Mountain Biking",
+    "description": "Explore rugged trails on a mountain bike",
+    "hotelName": "Trail Blazer Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Mountain Trails",
+    "category": "Sports",
+    "duration": "3 hours"
+  },
+  {
+    "id": "b7c8d9e0-f1a2-4b7c-8d9e-0f1a2b3c6d5e",
+    "name": "Perfume Making",
+    "description": "Create your own signature scent",
+    "hotelName": "Fragrance Garden Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Perfume Lab",
+    "category": "Arts",
+    "duration": "2 hours"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-4c9d-0e1f-2b3b4c5d6e7f",
+    "name": "Cave Exploration",
+    "description": "Discover ancient cave formations",
+    "hotelName": "Crystal Cave Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 5500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Cave System",
+    "category": "Adventure",
+    "duration": "4 hours"
+  },
+  {
+    "id": "d1e2f3a4-b5c6-4d1e-2f3a-4b5c7d7e8f9a",
+    "name": "Bread Making Class",
+    "description": "Learn traditional bread baking techniques",
+    "hotelName": "Bakery Boutique Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Bakery",
+    "category": "Food & Drink",
+    "duration": "3 hours"
+  },
+  {
+    "id": "e3f4a5b6-c7d8-4e3f-4a5b-6c7d9e9f0a1b",
+    "name": "Paragliding",
+    "description": "Soar through the skies with a professional guide",
+    "hotelName": "Cloud Nine Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 8000,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Launch Site",
+    "category": "Adventure",
+    "duration": "2 hours"
+  },
+  {
+    "id": "f5a6b7c8-d9e0-4f5a-6b7c-899e0f1a2b3c",
+    "name": "Candle Making",
+    "description": "Create your own scented candles",
+    "hotelName": "Candlelight Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Craft Studio",
+    "category": "Arts",
+    "duration": "2 hours"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-4a7b-8c9d-0e172a3b4c5d",
+    "name": "Snorkeling Tour",
+    "description": "Explore vibrant coral reefs",
+    "hotelName": "Coral Bay Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Reef",
+    "category": "Adventure",
+    "duration": "3 hours"
+  },
+  {
+    "id": "46",
+    "name": "Coffee Tasting",
+    "description": "Sample premium coffee varieties",
+    "hotelName": "Bean Town Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 2500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Coffee Lab",
+    "category": "Food & Drink",
+    "duration": "1.5 hours"
+  },
+  {
+    "id": "47",
+    "name": "Kite Surfing",
+    "description": "Learn to ride the waves with a kite",
+    "hotelName": "Wind Rider Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 7000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Beach",
+    "category": "Sports",
+    "duration": "3 hours"
+  },
+  {
+    "id": "48",
+    "name": "Soap Making",
+    "description": "Create your own natural soaps",
+    "hotelName": "Soap Garden Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3500,
+      "currency": "USD"
+    },
+    "rating": 4.7,
+    "location": "Soap Studio",
+    "category": "Arts",
+    "duration": "2 hours"
+  },
+  {
+    "id": "49",
+    "name": "Hiking to Waterfalls",
+    "description": "Discover hidden waterfalls on a guided hike",
+    "hotelName": "Waterfall Resort",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 3000,
+      "currency": "USD"
+    },
+    "rating": 4.8,
+    "location": "Forest Trails",
+    "category": "Adventure",
+    "duration": "4 hours"
+  },
+  {
+    "id": "50",
+    "name": "Wine and Cheese Pairing",
+    "description": "Learn the art of pairing wine with cheese",
+    "hotelName": "Vineyard Valley Hotel",
+    "coverImageUrl": "https://placehold.co/600x400/png",
+    "price": {
+      "amountInCents": 4500,
+      "currency": "USD"
+    },
+    "rating": 4.9,
+    "location": "Tasting Room",
+    "category": "Food & Drink",
+    "duration": "2 hours"
+  }
+]
