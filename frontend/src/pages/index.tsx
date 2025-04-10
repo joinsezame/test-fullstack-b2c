@@ -1,9 +1,28 @@
 import { ActivityCard } from "@/components/activity-card"
-import { getActivities } from "@/lib/api"
+import { useEffect, useState } from "react"
+import { Activity, getActivities } from "@/lib/api"
 
-export default async function ActivitiesPage() {
-  // Fetch activities from the API
-  const activities = await getActivities()
+export default function ActivitiesPage() {
+  const [activities, setActivities] = useState<Activity[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    const fetchActivities = async () => {
+      try {
+        setLoading(true)
+        const data = await getActivities()
+        setActivities(data)
+      } catch (err) {
+        setError("Failed to load activities")
+        console.error(err)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchActivities()
+  }, [])
 
   return (
     <div className="container mx-auto py-12 px-4">
@@ -14,7 +33,8 @@ export default async function ActivitiesPage() {
             Explore and book amazing hotel activities without booking a room
           </p>
         </div>
-
+        {loading && <div className="text-center py-12">Loading...</div>}
+        {error && <div className="text-center py-12">Error: {error}</div>}
         {activities.length === 0 ? (
           <div className="text-center py-12">
             <p className="text-lg text-muted-foreground">No activities found</p>

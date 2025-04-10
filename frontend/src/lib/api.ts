@@ -1,4 +1,3 @@
-// Define the Activity type according to the provided schema
 export type Activity = {
   id: string
   name: string
@@ -15,38 +14,22 @@ export type Activity = {
   duration: string
 }
 
-// Function to fetch activities from the API
 export async function getActivities(): Promise<Activity[]> {
-  try {
-    // Replace with your actual API endpoint
-    const response = await fetch("http://localhost:3001/activities", {
-      cache: "no-store", // Ensure fresh data on each request
-    })
+  const response = await fetch("http://localhost:3001/activities")
 
-    if (!response.ok) {
-      throw new Error("Failed to fetch activities")
-    }
-
-    return response.json()
-  } catch (error) {
-    console.error("Error fetching activities:", error)
-    return [] // Return empty array in case of error
+  if (!response.ok) {
+    throw new Error("Failed to fetch activities")
   }
+
+  return response.json()
 }
 
 export async function getActivity(id: string): Promise<Activity> {
-  try {
-    const response = await fetch(`http://localhost:3001/activities/${id}`, {
-      cache: "no-store",
-    })
+  const response = await fetch(`http://localhost:3001/activities/${id}`)
 
-    if (!response.ok) {
-      throw new Error("Failed to fetch activity")
-    }
-
-    return response.json()
-  } catch (error) {
-    console.error("Error fetching activity:", error)
-    throw error
+  if (!response.ok) {
+    throw new Error("Failed to fetch activity")
   }
+
+  return response.json()
 }

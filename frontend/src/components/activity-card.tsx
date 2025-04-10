@@ -7,23 +7,7 @@ import { Clock, MapPin, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-
-// Define the Activity type according to the provided schema
-type Activity = {
-  id: string
-  name: string
-  description: string
-  hotelName: string
-  coverImageUrl: string
-  price: {
-    amountInCents: number
-    currency: string
-  }
-  rating: number
-  location: string
-  category: string
-  duration: string
-}
+import { Activity } from "@/lib/api"
 
 interface ActivityCardProps {
   activity: Activity
@@ -81,11 +65,9 @@ export function ActivityCard({ activity }: ActivityCardProps) {
 
       <CardFooter className="px-5 pb-5 pt-0 flex items-center justify-between">
         <div className="text-xl font-bold">{formatPrice(activity.price.amountInCents, activity.price.currency)}</div>
-        <Link href={`/${activity.id}`}>
-          <Button size="sm" className="rounded-full px-4">
-            Book Now
-          </Button>
-        </Link>
+        <Button size="sm" className="rounded-full px-4">
+          <Link href={`/activities/${activity.id}`}>Book Now</Link>
+        </Button>
       </CardFooter>
     </Card>
   )
