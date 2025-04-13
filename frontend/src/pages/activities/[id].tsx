@@ -45,6 +45,9 @@ export default function ActivityPage() {
     console.log(email)
 
     // TODO: Create booking
+
+    const bookingId = "123" // TODO: get booking id from API
+    router.push(`/bookings/${bookingId}`)
   }
 
   if (loading) {

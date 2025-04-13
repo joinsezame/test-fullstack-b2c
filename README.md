@@ -22,11 +22,10 @@ Tu dois ajouter une fonctionnalité qui permet de réserver une activité :
    - toutes autres informations que tu jugeras importantes
 3. [backend] ajouter une route d'API `POST /bookings` pour créer une réservation
 4. [backend] ajouter une route d'API `GET /bookings/:bookingId` pour récupérer réservation par son ID
-5. [frontend] implémenter le formulaire de réservation dans la page `/[activityId]`
-6. [frontend] appeler la route d'API de création de réservation à la soumission de ce formulaire
-7. [frontend] ajouter une page `booking/[bookingId]` qui permet de voir le détails de sa réservation
-8. [frontend] rediriger sur page de succès après la réservation
-9. [frontend] faire la meilleure UI/UX possible. Le but est de permettre à l'utilisateur de réserver le plus simplement tout en restant visuellement plaisant.
+5. [frontend] implémenter le formulaire de réservation dans la page `/activities/[id]`
+6. [frontend] appeler la route d'API de création de réservation à la soumission de ce formulaire puis rediriger l'utilisateur vers `bookings/[bookingId]`
+7. [frontend] ajouter une page `bookings/[bookingId]` qui permet de voir le détail de sa réservation
+8. [frontend] (Bonus) si il te reste du temps, essaie d'améliorer au maximum l'expérience utilisateur de cette application
 
 ## Contraintes techniques
 
